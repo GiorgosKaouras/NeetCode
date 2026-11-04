@@ -9,11 +9,18 @@ An **anagram** is a string that contains the exact same characters as another st
 
 **Example 1:**
 ```text
-Input 1: strs = ["act","pots","tops","cat","stop","hat"]
-Output 1: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
+Input: strs = ["act","pots","tops","cat","stop","hat"]
+Output: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
+```
 
-Input 2: strs = ["x"]
-Output 2: [["x"]]
+**Example 2:**
+```text
+Input: strs = ["x"]
+Output: [["x"]]
+```
 
-Input 3: strs = [""]
-Output 3: [[""]]
+**Example 3:**
+```text
+Input: strs = [""]
+Output: [[""]]
+```
