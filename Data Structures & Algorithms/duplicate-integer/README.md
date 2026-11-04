@@ -7,8 +7,12 @@ Given an integer array `nums`, return `true` if any value appears more than once
 
 **Example 1:**
 ```text
-Input 1: nums = [1, 2, 3, 3]
-Output 1: true
+Input: nums = [1, 2, 3, 3]
+Output: true
+```
 
-Input 2: nums = [1, 2, 3, 4]
-Output 2: false
+**Example 2:**
+```text
+Input: nums = [1, 2, 3, 4]
+Output: false
+```
