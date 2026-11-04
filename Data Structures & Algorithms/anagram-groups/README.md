@@ -1,14 +1,19 @@
-# Contains Duplicate
+# Group Anagrams
 
 ## Problem Description
-Given an integer array `nums`, return `true` if any value appears more than once in the array, otherwise return `false`.
+Given an array of strings `strs`, group all anagrams together into sublists. You may return the output in any order.
+
+An **anagram** is a string that contains the exact same characters as another string, but the order of the characters can be different.
 
 ## Examples
 
 **Example 1:**
 ```text
-Input: nums = [1, 2, 3, 3]
-Output: true
+Input 1: strs = ["act","pots","tops","cat","stop","hat"]
+Output 1: [["hat"],["act", "cat"],["stop", "pots", "tops"]]
 
-Input: nums = [1, 2, 3, 4]
-Output: false
+Input 2: strs = ["x"]
+Output 2: [["x"]]
+
+Input 3: strs = [""]
+Output 3: [[""]]
